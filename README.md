@@ -20,3 +20,6 @@ INSTALL EXPRESS
 <pre>npm install --save express body-parser</pre>
 <h2>User interface</h2>
 <lable>CoreUI</lable> http://coreui.io/#features
+
+<h5>Others</h5>
+<pre>declare let $: any;</pre>
