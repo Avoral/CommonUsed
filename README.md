@@ -36,11 +36,15 @@ show databases
 show collections names
 <pre>show collections</pre>
 
- show collection
+show collection
 <pre>db.<collection_name>.find()</pre>
+
+format results
+<pre>.preatty()</pre>
 
 create collection
 <pre>db.createCollections('<NAME>')</pre>
 
 insert into collection
 <pre>db.<collection_name>.insert({<object_>})</pre>
+
