@@ -26,11 +26,21 @@ INSTALL EXPRESS
 
 <h1>MongoDB</h1>
 <h2>Commands</h2>
-<pre>use <DB_NAME></pre> create if not present
 
-<pre>show dbs</pre> - show databases
-<pre>show collections</pre> show collections names
-<pre>db.<collection_name>.find()</pre> show collection
+create if not present
+<pre>use <DB_NAME></pre>
 
-<pre>db.createCollections('<NAME>')</pre> create collection
-<pre>db.<collection_name>.insert({<object_>})</pre> insert into collection
+show databases
+<pre>show dbs</pre>
+
+show collections names
+<pre>show collections</pre>
+
+ show collection
+<pre>db.<collection_name>.find()</pre>
+
+create collection
+<pre>db.createCollections('<NAME>')</pre>
+
+insert into collection
+<pre>db.<collection_name>.insert({<object_>})</pre>
