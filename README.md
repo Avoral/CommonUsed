@@ -23,3 +23,14 @@ INSTALL EXPRESS
 
 <h5>Others</h5>
 <pre>declare let $: any;</pre>
+
+<h1>MongoDB</h1>
+<h2>Commands</h2>
+<pre>use <DB_NAME></pre> - create if not present
+
+<pre>show dbs</pre> - show databases
+<pre>show collections</pre> - show collections names
+<pre>db.<collection_name>.find()</pre> - show collection
+
+<pre>db.createCollections('<NAME>')</pre> - create collection
+<pre>db.<collection_name>.insert({<object_>})</pre> - insert in to collection
